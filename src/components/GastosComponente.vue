@@ -1,5 +1,4 @@
 <template>
-  
     <div class="row lead my-1">
       <div class="col-3">{{gasto.nombre}}</div>
       <div class="col-3">{{new Intl.NumberFormat("de-DE").format(gasto.monto)}}</div>
@@ -20,7 +19,6 @@
           v-on:click="manejarClick($event,{indice:indice, id:id, monto: gasto.monto})">
         </div>
       </div>
-      
     </div>
   
 </template>

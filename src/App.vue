@@ -57,19 +57,19 @@
       <button
         id="hogar"
         type="button"
-        v-bind:class="['btn', 'btn-outline-secondary', mostrarHogar]"
+        v-bind:class="['btn', 'btn btn-outline-primary', mostrarHogar]"
         v-on:click="filtro($event)"
       >Hogar</button>
       <button
         id="trabajo"
         type="button"
-        v-bind:class="['btn', 'btn-outline-secondary', mostrarTrabajo]"
+        v-bind:class="['btn', 'btn btn-outline-primary', mostrarTrabajo]"
         v-on:click="filtro($event)"
       >Trabajo</button>
       <button
         id="carros"
         type="button"
-        v-bind:class="['btn', 'btn-outline-secondary', mostrarCarros]"
+        v-bind:class="['btn', 'btn btn-outline-primary', mostrarCarros]"
         v-on:click="filtro($event)"
       >Carros</button>
     </div>
